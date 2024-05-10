@@ -5,6 +5,10 @@ from tkinter import ttk
 # Initialize counter
 counter = 0
 
+# Create a function to focus to the root window
+def on_combobox_selected(event):
+    root.focus()
+
 # Create a function to disable all buttons
 def disable_all_buttons():
     for button in buttons:
@@ -133,6 +137,9 @@ start_menu = ttk.Combobox(root, state="readonly", textvariable=start_var, values
 end_menu = ttk.Combobox(root, state="readonly", textvariable=end_var, values=list(set([key[1] for key in combinations.keys()])))
 start_menu.place(x=310, y=50)
 end_menu.place(x=465, y=50)
+
+start_menu.bind("<<ComboboxSelected>>", on_combobox_selected)
+end_menu.bind("<<ComboboxSelected>>", on_combobox_selected)
 
 # Create the button
 button = tk.Button(root, text="Get Settings", command=get_settings)
