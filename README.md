@@ -24,7 +24,7 @@ Windows:<br>
 - Download the Repository via git or just as zip
 - Install [Python](https://www.python.org/downloads/) and select the option 'Add to System Path'
 - Install PyInstaller using `pip install pyinstaller`
-- cd to the directory containing the .ico, .py and .spec file and run `pyinstaller Gorod-Bomb-Helper.spec` or just run the build.bat
+- cd to the directory containing the .ico, .py and .spec file and run `pyinstaller Gorod-Helper-Tool.spec` or just run the build.bat
 
 ## Credits / Other Sources:
 
