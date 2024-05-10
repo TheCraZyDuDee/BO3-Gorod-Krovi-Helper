@@ -4,6 +4,8 @@ Ever got annoyed by the Bomb Minigame Step for the Gorod Krovi EE?<br>
 This Tool helps to remember the Bomb locations by just clicking them in the GUI in order.<br>
 __UPDATED: Users can now get all possible Valve Combinations for the Pink Cylinder step from the tool__
 
+![](https://i.imgur.com/OuxVfJc.png)
+
 Maybe in the future i think about adding more features to it but for now it is what it is.
 
 ## Usage:
