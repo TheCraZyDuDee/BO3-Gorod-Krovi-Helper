@@ -1,1 +1,1 @@
-pyinstaller Gorod-Bomb-Helper.spec
+pyinstaller Gorod-Helper-Tool.spec
