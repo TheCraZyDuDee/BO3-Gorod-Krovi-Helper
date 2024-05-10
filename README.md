@@ -12,10 +12,10 @@ Windows:<br>
 Download the Executable from the Releases Tab or by clicking [here](https://github.com/TheCraZyDuDee/BO3-Gorod-Krovi-Helper/releases/latest/download/Gorod-Helper-Tool.exe)
 
 Linux:<br>
-Coming Soon
+Not tested
 
 Mac OS:<br>
-Coming Soon
+Not tested
 
 ## Building:
 
