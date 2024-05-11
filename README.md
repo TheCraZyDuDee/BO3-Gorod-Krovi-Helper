@@ -1,8 +1,9 @@
 # BO3-Gorod-Krovi-Helper
 
-Ever got annoyed by the Bomb Minigame Step for the Gorod Krovi EE?<br>
-This Tool helps to remember the Bomb locations by just clicking them in the GUI in order.<br>
-__UPDATED: Users can now get all possible Valve Combinations for the Pink Cylinder step from the tool__
+__A Webversion of this Tool can now be found [here](https://thecrazydudee.github.io/Gorod-Helper-WebTool/) (Still WIP)__
+
+Tool which tries to help with various steps in the Gorod Krovi Easter Egg.<br>
+Currently only help for the Bomb and Valve step are included.
 
 ![](https://i.imgur.com/OuxVfJc.png)
 
