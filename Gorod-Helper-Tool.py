@@ -1,6 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import ttk
+import webbrowser
 
 # Initialize counter
 counter = 0
@@ -35,6 +36,15 @@ def reset():
     for i, button in enumerate(buttons):
         button['text'] = locations[i]
         button['state'] = "normal"
+    # Reset the dropdown menus
+    start_var.set("Green Light Valve")
+    end_var.set("Pink Cylinder Valve")
+    # Clear the text widget
+    result_text.delete(1.0, tk.END)
+
+# Function to open your GitHub page
+def open_github(event):
+    webbrowser.open('https://github.com/TheCraZyDuDee/BO3-Gorod-Krovi-Helper')
 
 # Define the combinations
 combinations = {
@@ -111,8 +121,13 @@ label2 = tk.Label(root, text="Select the appropriate Valves in the Dropdown Menu
 label2.place(x=307, y=15)
 
 # Create version label
-label3 = tk.Label(root, text="v0.0.2")
+label3 = tk.Label(root, text="v0.0.3")
 label3.place(x=590, y=290)
+
+# Create the GitHub link label
+github_link = tk.Label(root, text="Github", fg="blue", cursor="hand2")
+github_link.place(x=7, y=290)  # Adjust the coordinates as needed
+github_link.bind("<Button-1>", open_github)
 
 # Create buttons
 locations = ["Tank Factory", "Dragon Command", "Infarmy", "Armory", "Supply Depot", "Dept. Store"]
