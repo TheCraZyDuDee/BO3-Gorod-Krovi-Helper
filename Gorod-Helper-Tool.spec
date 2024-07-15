@@ -5,14 +5,14 @@ a = Analysis(
     ['Gorod-Helper-Tool.py'],
     pathex=[],
     binaries=[],
-    datas=[('gorod.ico', '.')],  # Add your icon file here
+    datas=[('gorod.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
     noarchive=False,
-    optimize=0,
+    optimize=1,
 )
 pyz = PYZ(a.pure)
 
