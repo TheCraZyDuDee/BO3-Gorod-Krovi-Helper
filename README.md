@@ -1,5 +1,7 @@
 # BO3-Gorod-Krovi-Helper
 
+## Due to the tool being AI-generated and my current focus on learning coding, I'll no longer be maintaining or providing support for this tool.
+
 __A Webversion of this Tool can now be found [here](https://thecrazydudee.github.io/Gorod-Helper-WebTool/) (Still WIP)__
 
 Tool which tries to help with various steps in the Gorod Krovi Easter Egg.<br>
