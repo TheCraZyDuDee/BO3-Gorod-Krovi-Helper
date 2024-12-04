@@ -1,6 +1,6 @@
 # BO3-Gorod-Krovi-Helper
 
-## Due to the tool being AI-generated and my current focus on learning coding, I'll no longer be maintaining or providing support for this tool.
+## Due to the tool being AI-generated and my current focus on learning coding, support for this is limited for now.
 
 __A Webversion of this Tool can now be found [here](https://thecrazydudee.github.io/Gorod-Helper-WebTool/) (Still WIP)__
 
